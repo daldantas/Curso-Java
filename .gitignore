@@ -20,3 +20,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/TiposPrimitivos/nbproject/private/
+/TiposPrimitivos/build/
+/SaidasBasicas/nbproject/private/
+/PDTInOut/nbproject/private/
+/PDTInOut/build/
+/SomaSwing/nbproject/private/
+/SomaSwing/build/

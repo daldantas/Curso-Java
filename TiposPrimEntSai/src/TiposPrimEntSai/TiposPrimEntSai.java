@@ -2,11 +2,11 @@
  *  Data In                 *
  *  Data Out                */ 
 
-package pdtinout;
+package TiposPrimEntSai;
 
 import java.util.Scanner;
 
-public class PDTInOut {
+public class TiposPrimEntSai {
 
     public static void main(String[] args) {
         float nota = 8.5f;// 'f' no final ou (float) 8.5;

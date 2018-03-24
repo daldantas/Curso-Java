@@ -1,2 +1,2 @@
 # Curso de Java (introdução)
-* CursoEmVideo.com
+* https://www.cursoemvideo.com/course/curso-java-iniciante/

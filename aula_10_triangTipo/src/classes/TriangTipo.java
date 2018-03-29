@@ -9,12 +9,12 @@ package classes;
  *
  * @author daldantas
  */
-public class TriengTipo extends javax.swing.JFrame {
+public class TriangTipo extends javax.swing.JFrame {
 
     /**
      * Creates new form TriengTipo
      */
-    public TriengTipo() {
+    public TriangTipo() {
         initComponents();
         lblRes.setVisible(false);
     }
@@ -204,15 +204,21 @@ public class TriengTipo extends javax.swing.JFrame {
     }//GEN-LAST:event_btnVerActionPerformed
 
     private void sliAStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliAStateChanged
-        lblA.setText(Integer.toString((int) (sliA.getValue() * .5)));
+        float lbla = (float) (sliA.getValue() * .5);
+        String output = String.format("%s", lbla);
+        lblA.setText(output);
     }//GEN-LAST:event_sliAStateChanged
 
     private void sliBStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliBStateChanged
-        lblB.setText(Integer.toString((int) (sliB.getValue() * .5)));
+        float lblb = (float) (sliB.getValue() * .5);
+        String output = String.format("%s", lblb);
+        lblB.setText(output);        
     }//GEN-LAST:event_sliBStateChanged
 
     private void sliCStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliCStateChanged
-        lblC.setText(Integer.toString((int) (sliC.getValue() * .5)));
+        float lblc = (float) (sliC.getValue() * .5);
+        String output = String.format("%s", lblc);
+        lblC.setText(output);
     }//GEN-LAST:event_sliCStateChanged
 
     /**
@@ -232,20 +238,21 @@ public class TriengTipo extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TriengTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TriangTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TriengTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TriangTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TriengTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TriangTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TriengTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TriangTipo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TriengTipo().setVisible(true);
+                new TriangTipo().setVisible(true);
             }
         });
     }
